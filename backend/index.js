@@ -16,7 +16,7 @@ app.use(e.json());
 app.use(e.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://imagine-app-seven.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
   })
